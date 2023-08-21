@@ -1,0 +1,11 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using RMSModel.Models;
+
+namespace RMSServices.Controllers;
+
+public class MsUserController : CrudController<MsUser>
+{
+    public MsUserController()
+        : base(db => db.MsUser)
+    { }
+}

@@ -1,0 +1,9 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using RMSModel.Models;
+
+namespace RMSServices.Controllers;
+
+public class {classname}Controller : CrudController<{classname}>
+{
+    public {classname}Controller() : base(db => db.{classname}){ }
+}
