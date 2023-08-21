@@ -1,5 +1,0 @@
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=10.235.84.47,1661;User Id=userRMS;Password=MaybankWinner1!; Database=RMS;TrustServerCertificate=true"
-  }
-}
